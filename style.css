@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&family=Pacifico&display=swap');
+
+header {
+    font-family: 'Oswald';
+}
+
+h2 {
+    font-family: 'Oswald';
+}
+
+h1 {
+    font-family: 'Pacifico';
+}
+
+a {
+    font-family: 'Pacifico';
+}
+
+li {
+    font-family: caveat;
+}
