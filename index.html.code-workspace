@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noticias sobre stumble guys</title>
+    <style>
+
+        
+
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #eee;
+        }
+
+        header {
+            background: linear-gradient(90deg, #00ffff, #00ccff);
+            color: #000;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 0 15px #0ff;
+        }
+
+       
+        nav {
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            border-bottom: 2px solid #0ff;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            border-bottom: 2px solid #0ff;
+            padding: 1rem;
+        }
+
+        nav a {
+            colo: #0ff;
+            text-decoration: none;
+            padding: 0.6rem 1rem;
+            font-weight: bold;
+            transition: 0.3s;
+            border-radius: 6px;
+        }
+
+        nav a:hover {
+            background: #0ff;
+            color: #000;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: #1a1a1a;
+            border-radius: 12 px;
+            box-shadow: 0 0 20px #0ff4;
+        }
+
+        section h2 {
+            color: #0ff;
+            text-shadow: 0 0 8px #0ff;
+            margin-bottom: 1rem;
+        }
+
+        p, ul, ol {
+            line-height: 1.7;
+        }
+
+        ul, ol {
+            padding-left: 1.5rem;
+        }
+
+        .highlight {
+            color: #ff0;
+            font-weight: bold;
+        }
+
+        .carrusel-section {
+            text-align: center;
+        }
+
+        u.carrusel-contenedor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            overflow: hidden;
+            margin-top: 2rem; 
+        }
+
+        .carrusel {
+            display: flex;
+            gap: 1.5rem;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            max-width: 90%;
+            padding: 1rem 0;
+        }
+
+        .card {
+            flex: 0 0 auto;
+            width: 260px;
+            height: 320px;
+            background: #111;
+            border: 2px solid #0ff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #0ff6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .card h3 {
+            color: #0ff;
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            color: #ccc;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .boton-circular {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: #0ff;
+            color: #111;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 0 10px #0ff8;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .boton-circular:hover {
+            background: #00cccc;
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            background: #000;
+            color: #888;
+            padding: 2rem;
+            margin-top: 3rem;
+            border-top: 2px solid #0ff;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: colum;
+                gap: 0.5rem;
+        }
+
+        .carrusel {
+            max-width: 90%;
+        }
+     } 
+
+     .iframe {
+        justify-content: center;
+     }
+  
+      a {
+        text-decoration: none;
+        color: #00ffff;
+      }
+
+   a:hover {
+    text-decoration: underline;
+    color: white;
+   }
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>STUMBLE NEWS</h1>
+        <p>lo ultimo del mundo de <strong>stumble guys</strong></p>
+    </header>
+
+
+
+    <nav>
+        <a href="#actualizacion">actualizacion</a>
+        <a href="#personajes">personajes</a>
+        <a href="#skins">skins</a>
+        <a href="#trucos">trucos</a>
+        <a href="#curiosidades">curiosidades</a>
+    </nav>
+
+
+    <section id="actualizacion">
+        <h2>nueva actualizacion 0.68</h2>
+        <p>la nueva version de <span class="highlight"> stumble guys 0.68 </span> incluye nuevos mapas, optimizacionesde jugabilidad, y eventos de tiempolimitado como el mapa "stumble high", con plataformas moviles y portales neon</p>
+    </section>
+
+    <section id="personajes">
+        <h2>nuevos personajes</h2>
+        <ul>
+            <li><strong>robotix</strong>: android con luces led</li>
+            <li><strong>neon runer</strong>: personaje que brilla en carrera</li>
+            <li><strong>pixel minja</strong>: desbloquo por codigo secreto</li>
+        </ul>
+    </section>
+
+   <section id="skins">
+    <h2>skins neon</h2>
+    <ul>
+        <li><strong>neon galaxy</strong>: solo por torneos</li>
+        <li><strong>electric tiger</strong>: rayos animados</li>
+        <li><strong>rgb runner</strong>: cambia el color al correr</li>
+    </ul>
+   </section>
+   
+    <section id="trucos">
+        <h2>trucos y consejos</h2>
+        <ol>
+            <li>usa <span class="highlight">salto + dash</span> para esquivar</li>
+            <li>practica en mapas de velocidad</li>
+            <li>configura la sensibilidad del joystick</li>
+            <li>guarda gemas para eventos</li>
+        </ol>
+    </section>
+
+    <section id="curiosidades">
+        <h2>curiosidades</h2>
+        <ul>
+            <li>mas de 500 millones de descargas</li>
+            <li>"lava rush" es el mapa mas dificil</li>
+            <li>algunos bugs activan modos ocultos</li>
+            <li>hat torneos con premios reales</li>
+        </ul>
+    </section>
+
+    <h2>secciones especiales</h2>
+    <div class="carrusel-contenedor">
+        <button class="boton-circular izquierda" onclick="moverCarrusel(-1)"></button>
+        <div class="carrusel" id="carrusel">
+            <div class="card"><h3>competencia</h3><p>hay competitivos para subir de rengo noob a campeon</p></div>
+            <div class="card"><h3>habilidad</h3><p>salio la habilidad de atrevesar paredes en block dash y esta cool</p></div>
+            <div class="card"><h3>mapas</h3><p>salieron mapas de pirata y nuevas habilidades</p></div>
+            <div class="card"><h3>eventos</h3><p>ha salido nuevos eventos de exibiciones de habilidades</p></div>
+            <div class="card"><h3>skins</h3><p>salieron nuevas skins miticas especiales como pacman y wront drawing</p></div>
+            <div class="card"><h3>recompensas</h3><p>en ruletas se te sale un anuncio en tu telefono y dice " obtendras una skins mitica garantizada" gira la ruleta aleatoria y es muy probable que obtengas una skins legendaria</p></div>
+        </div>
+        <button class="boton-circular derechas" onclick="movercarrusel(1)"></button>    
+    </div>
+</section>
+<section>
+<h1>mi skin favorita</h1>
+    <img src="maxresdefault.jpg"  width="900" height="500" "imagen de un personaje"  frameborder="0">
+</section>
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <iframe width="1000" height="500" src="https://www.youtube.com/embed/0qlQxKp6Hds?si=ecYinudBeGMsrGfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+<footer>
+    @ 2025 stumble news | hecho por fans para fans
+</footer>
+
+
+
+<script>
+    function movercarrusel(direction) {
+        const carrusel = document.getElementById('carrusel');
+        const scrollAmount = 220;
+        carrusel.scrollBy({
+            left: direction * scrollAmount,
+            behavior: 'smooth'
+        });
+     } 
+</script>
+
+
+
+</body>
+</html>
